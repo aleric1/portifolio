@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: rgb(45,151,152);
+background: radial-gradient(circle, rgba(45,151,152,1) 0%, rgba(5,10,60,1) 100%);
+
+  
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+ 
+}
+  
+
+.insta{
+  
+  height:20px;
+  width: 20px;
+  
+
+}
+.whats{
+
+  height:20px;
+  width: 20px;
+  margin-left: 15px;
+
+
+}
+ .linkedin{
+  height:20px;
+  width: 20px;
+  margin-left: 15px;
+
+    }
+.cabecalho-imagem {
+  height: 80px;
+
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 32px;
+}
+
+.cabecalho-menu-item {
+  font-family: 'Sarala', sans-serif;
+  color: #FFF2E7;
+  font-weight: 400;
+  font-size: 18px
+}
+
+.conteudo {
+  margin-bottom: 48px;
+ 
+  border-top: 0.4px solid #ffffff;
+}
+
+.conteudo-principal {
+  padding: 200px 0 0 300px;
+}
+
+.conteudo-principal-escrito {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.conteudo-principal-escrito-titulo {
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 60px;
+  color: #fcfcfc;
+}
+  
+ 
+.conteudo-principal-escrito-subtitulo {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 100px;
+  font-size: 35px;
+  color: #ffffff;
+}
+
+
+
+ 
+
+
+.conteudo-principal-imagem {
+  height: 430px;
+  padding: 0px;
+  padding-left: 1100px;
+  margin-top:  -270px;
+  transform: translatey( 0px);
+  animation: float 5s ease-in-out infinite;
+
+  
+}
+
+@keyframes float{
+   0%{
+    transform: translateY(0px);
+   }
+   50% {
+    transform: translateY(-30px);
+   }
+   100% {
+
+    transform: translateY(0px);
+   }
+}
+.conteudo-secundario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  margin-top: 80px;
+  border-top: 0.4px solid #FFF2E7; 
+}
+
+.conteudo-secundario-titulo {
+  border-top: 0.4px solid #fdfdfd;
+  padding-top: 48px;
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.botao{
+  font-family: 'Righteous', cursive;
+  font-size: 20px;
+  padding: 20px 140px;
+  border-radius: 25px;
+  cursor: pointer;
+  color: white;
+  background-color: #74c3f1;
+  border: none;
+  transition: ease-in-out 0.3s;
+}
+
+
